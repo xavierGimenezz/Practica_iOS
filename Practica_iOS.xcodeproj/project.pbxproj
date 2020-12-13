@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61CEC422257D113F00BB38F2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CEC421257D113F00BB38F2 /* Home.storyboard */; };
+		61CEC427257FD4FC00BB38F2 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC426257FD4FC00BB38F2 /* Heroe.swift */; };
+		61CEC42B257FDBAC00BB38F2 /* HeoreCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC42A257FDBAC00BB38F2 /* HeoreCellView.swift */; };
+		61CEC42E2584D35200BB38F2 /* Villano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC42D2584D35200BB38F2 /* Villano.swift */; };
+		61CEC431258611D100BB38F2 /* VillanoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC430258611D100BB38F2 /* VillanoCellView.swift */; };
+		61CEC43925863E1B00BB38F2 /* VillanoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC43825863E1B00BB38F2 /* VillanoViewController.swift */; };
+		61CEC48825865C1400BB38F2 /* AvengersHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CEC48725865C1400BB38F2 /* AvengersHome.storyboard */; };
 		61D934B6257CEF2C0090E3FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D934B5257CEF2C0090E3FC /* AppDelegate.swift */; };
 		61D934B8257CEF2C0090E3FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D934B7257CEF2C0090E3FC /* SceneDelegate.swift */; };
-		61D934BA257CEF2C0090E3FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D934B9257CEF2C0090E3FC /* ViewController.swift */; };
+		61D934BA257CEF2C0090E3FC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D934B9257CEF2C0090E3FC /* SplashViewController.swift */; };
 		61D934BD257CEF2C0090E3FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D934BB257CEF2C0090E3FC /* Main.storyboard */; };
 		61D934BF257CEF310090E3FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D934BE257CEF310090E3FC /* Assets.xcassets */; };
 		61D934C2257CEF310090E3FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D934C0257CEF310090E3FC /* LaunchScreen.storyboard */; };
+		61D934D0257D09210090E3FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D934CF257D09210090E3FC /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61CEC421257D113F00BB38F2 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		61CEC426257FD4FC00BB38F2 /* Heroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
+		61CEC42A257FDBAC00BB38F2 /* HeoreCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeoreCellView.swift; sourceTree = "<group>"; };
+		61CEC42D2584D35200BB38F2 /* Villano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Villano.swift; sourceTree = "<group>"; };
+		61CEC430258611D100BB38F2 /* VillanoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillanoCellView.swift; sourceTree = "<group>"; };
+		61CEC43825863E1B00BB38F2 /* VillanoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillanoViewController.swift; sourceTree = "<group>"; };
+		61CEC48725865C1400BB38F2 /* AvengersHome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AvengersHome.storyboard; sourceTree = "<group>"; };
 		61D934B2257CEF2C0090E3FC /* Practica_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D934B5257CEF2C0090E3FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61D934B7257CEF2C0090E3FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61D934B9257CEF2C0090E3FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61D934B9257CEF2C0090E3FC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		61D934BC257CEF2C0090E3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61D934BE257CEF310090E3FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61D934C1257CEF310090E3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61D934C3257CEF310090E3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D934CF257D09210090E3FC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61CEC425257FD4B900BB38F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61CEC426257FD4FC00BB38F2 /* Heroe.swift */,
+				61CEC42D2584D35200BB38F2 /* Villano.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61CEC429257FDB8F00BB38F2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				61CEC42A257FDBAC00BB38F2 /* HeoreCellView.swift */,
+				61CEC430258611D100BB38F2 /* VillanoCellView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		61D934A9257CEF2C0090E3FC = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +90,45 @@
 		61D934B4257CEF2C0090E3FC /* Practica_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				61D934B5257CEF2C0090E3FC /* AppDelegate.swift */,
+				61D934C3257CEF310090E3FC /* Info.plist */,
+				61CEC425257FD4B900BB38F2 /* Model */,
+				61D934CC257CFE0C0090E3FC /* Playgrounds */,
+				61D934CB257CFDF80090E3FC /* Apps */,
+				61D934CA257CEFD50090E3FC /* Controllers */,
+			);
+			path = Practica_iOS;
+			sourceTree = "<group>";
+		};
+		61D934CA257CEFD50090E3FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				61CEC43825863E1B00BB38F2 /* VillanoViewController.swift */,
+				61D934CF257D09210090E3FC /* HomeViewController.swift */,
+				61D934B9257CEF2C0090E3FC /* SplashViewController.swift */,
+				61CEC429257FDB8F00BB38F2 /* Cells */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		61D934CB257CFDF80090E3FC /* Apps */ = {
+			isa = PBXGroup;
+			children = (
 				61D934B7257CEF2C0090E3FC /* SceneDelegate.swift */,
-				61D934B9257CEF2C0090E3FC /* ViewController.swift */,
+				61D934B5257CEF2C0090E3FC /* AppDelegate.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		61D934CC257CFE0C0090E3FC /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
 				61D934BB257CEF2C0090E3FC /* Main.storyboard */,
 				61D934BE257CEF310090E3FC /* Assets.xcassets */,
 				61D934C0257CEF310090E3FC /* LaunchScreen.storyboard */,
-				61D934C3257CEF310090E3FC /* Info.plist */,
+				61CEC421257D113F00BB38F2 /* Home.storyboard */,
+				61CEC48725865C1400BB38F2 /* AvengersHome.storyboard */,
 			);
-			path = Practica_iOS;
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +188,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CEC48825865C1400BB38F2 /* AvengersHome.storyboard in Resources */,
 				61D934C2257CEF310090E3FC /* LaunchScreen.storyboard in Resources */,
 				61D934BF257CEF310090E3FC /* Assets.xcassets in Resources */,
 				61D934BD257CEF2C0090E3FC /* Main.storyboard in Resources */,
+				61CEC422257D113F00BB38F2 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61D934BA257CEF2C0090E3FC /* ViewController.swift in Sources */,
+				61CEC431258611D100BB38F2 /* VillanoCellView.swift in Sources */,
+				61D934BA257CEF2C0090E3FC /* SplashViewController.swift in Sources */,
+				61CEC427257FD4FC00BB38F2 /* Heroe.swift in Sources */,
 				61D934B6257CEF2C0090E3FC /* AppDelegate.swift in Sources */,
 				61D934B8257CEF2C0090E3FC /* SceneDelegate.swift in Sources */,
+				61CEC42B257FDBAC00BB38F2 /* HeoreCellView.swift in Sources */,
+				61CEC43925863E1B00BB38F2 /* VillanoViewController.swift in Sources */,
+				61D934D0257D09210090E3FC /* HomeViewController.swift in Sources */,
+				61CEC42E2584D35200BB38F2 /* Villano.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
